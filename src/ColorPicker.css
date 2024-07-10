@@ -23,4 +23,5 @@
 .ColorPicker input{
   width: 120px;
   height: 60px;
+  border: 5px solid rgb(210, 210, 210);
   }
