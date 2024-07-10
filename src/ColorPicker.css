@@ -1,0 +1,26 @@
+.ColorPicker{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ColorPicker h1{
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.ColorPicker .color-picker__display{
+  width: 300px;
+  height: 300px;
+  border: 15px solid rgb(210, 210, 210);
+  border-radius: 10px;
+
+}
+.ColorPicker .color-picker-selection{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.ColorPicker input{
+  width: 120px;
+  height: 60px;
+  }
